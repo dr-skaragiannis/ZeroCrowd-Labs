@@ -1,0 +1,4 @@
+tools/texlive-js/
+*.pass*.log
+*.pass*.log
+*.pass*.aux

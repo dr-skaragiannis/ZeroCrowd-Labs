@@ -6,6 +6,16 @@ The folder holds eight finished labs, the six skills used to build them, a seven
 
 `mrrobot-lab` is the one appliance in the set that was not converted. The host antivirus blocked the file before import, so that folder has no Compose project and it is not in the scores below.
 
+> **Correction (14 October 2026).** That sentence is stale. The MrRobot
+> appliance was subsequently converted: `labs/mrrobot-lab/` now contains
+> a Compose project and a built-and-running replica scored **8 pass /
+> 3 partial / 0 missing** in its `replica-parity.md`. The headline
+> scores below remain the eight-lab set (73/15/0 of 88; 5,248 MB of caps
+> against 8,168 MB). Including MrRobot, the scored corpus is nine labs:
+> **81 pass / 18 partial / 0 missing of 99 rows**, with configured caps
+> totalling 5,632 MB against 8,680 MB of guest RAM. See
+> `paper/VALIDATION.md` for the audit.
+
 ## Why replace the virtual machine
 
 A VulnHub appliance is a complete guest: its own kernel, a large disk, and a reserved RAM size. A container shares the host kernel and starts from a pinned userspace. That is the efficiency gain, and it is also the limit. The replica can match packages, ports, users, and cron. It cannot match the guest kernel. Every lab records that as an explicit gap.
