@@ -1,0 +1,29 @@
+services:
+  raven:
+    build: .
+    image: raven-lab
+    container_name: raven
+    hostname: raven
+    mem_limit: 512m
+    extra_hosts:
+      - "raven.local:127.0.0.1"
+    ports:
+      - "10.88.10.10:80:80"
+      - "10.88.10.10:22:22"
+    networks:
+      raven-net:
+        ipv4_address: 172.30.10.10
+    volumes:
+      - raven-mysql:/var/lib/mysql
+    restart: unless-stopped
+
+networks:
+  raven-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.10.0/24
+          gateway: 172.30.10.1
+
+volumes:
+  raven-mysql:

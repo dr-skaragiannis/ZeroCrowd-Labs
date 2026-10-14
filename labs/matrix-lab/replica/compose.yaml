@@ -1,0 +1,24 @@
+name: matrix-lab
+services:
+  matrix:
+    build: .
+    image: matrix-lab
+    container_name: matrix
+    hostname: matrix
+    mem_limit: 384m
+    ports:
+      - "10.88.10.12:80:80"
+      - "10.88.10.12:22:22"
+      - "10.88.10.12:31337:31337"
+    networks:
+      matrix-net:
+        ipv4_address: 172.31.11.10
+    restart: unless-stopped
+
+networks:
+  matrix-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.11.0/24
+          gateway: 172.31.11.1

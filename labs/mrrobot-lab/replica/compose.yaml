@@ -1,0 +1,23 @@
+name: mrrobot-lab
+services:
+  mrrobot:
+    build: .
+    image: mrrobot-lab
+    container_name: mrrobot
+    hostname: linux
+    mem_limit: 384m
+    networks:
+      lab:
+        ipv4_address: 172.31.17.10
+    ports:
+      - "10.88.10.18:22:22"
+      - "10.88.10.18:80:80"
+      - "10.88.10.18:443:443"
+    restart: unless-stopped
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.17.0/24
+          gateway: 172.31.17.1

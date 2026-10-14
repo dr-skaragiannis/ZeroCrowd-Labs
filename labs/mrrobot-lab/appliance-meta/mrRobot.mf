@@ -1,0 +1,2 @@
+SHA1(mrRobot-disk1.vmdk)= b2d377aca2f3c80c39bbae8bd119ed186e0391ee
+                                                            

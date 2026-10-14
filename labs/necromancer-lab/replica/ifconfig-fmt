@@ -1,0 +1,2 @@
+#!/bin/sh
+ip -4 -o addr show scope global | awk '{split($4, a, "/"); print "inet", a[1]}'

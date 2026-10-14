@@ -1,0 +1,11 @@
+[base]
+name=CentOS-7.3.1611 - Base
+baseurl=http://vault.centos.org/7.3.1611/os/$basearch/
+gpgcheck=0
+enabled=1
+
+[updates]
+name=CentOS-7.3.1611 - Updates
+baseurl=http://vault.centos.org/7.3.1611/updates/$basearch/
+gpgcheck=0
+enabled=1

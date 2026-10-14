@@ -1,0 +1,31 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, October 13, 2026 12:39:32 PM
+   Source : C:\Users\bloodraven\Projects\mrrobot-lab\
+     Dest : C:\Users\bloodraven\Projects\ZeroCrowd-Labs\labs\mrrobot-lab\
+
+    Files : *.*
+	    
+Exc Files : shadow-users.txt
+	    operator.pass
+	    app.sql
+	    *.ova
+	    *.raw
+	    *.vdi
+	    *.vmdk
+	    *.rar
+	    *.zip
+	    *.tgz
+	    *.b64
+	    
+ Exc Dirs : import
+	    html
+	    parts
+	    extract
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /R:0 /W:0 
+
+------------------------------------------------------------------------------

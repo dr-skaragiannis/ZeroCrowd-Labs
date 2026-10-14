@@ -1,0 +1,115 @@
+name: got-lab
+services:
+  kingdoms:
+    build: .
+    image: got-lab
+    container_name: kingdoms
+    hostname: 7kingdoms
+    mem_limit: 256m
+    command: ["/usr/sbin/sshd", "-D"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.10
+    ports:
+      - "10.88.10.17:22:22"
+    restart: unless-stopped
+  winterfell:
+    image: got-lab
+    container_name: winterfell
+    mem_limit: 128m
+    command: ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.20
+    ports:
+      - "10.88.10.17:80:80"
+    restart: unless-stopped
+  rock:
+    image: got-lab
+    container_name: rock
+    mem_limit: 128m
+    command: ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx-1337.conf", "-g", "daemon off;"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.30
+    ports:
+      - "10.88.10.17:1337:1337"
+    restart: unless-stopped
+  ironislands:
+    image: got-lab
+    container_name: ironislands
+    mem_limit: 128m
+    command: ["/usr/sbin/named", "-g", "-u", "bind"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.40
+    ports:
+      - "10.88.10.17:53:53/tcp"
+      - "10.88.10.17:53:53/udp"
+    restart: unless-stopped
+  reach:
+    image: got-lab
+    container_name: reach
+    mem_limit: 128m
+    command: ["/usr/sbin/dovecot", "-F"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.50
+    ports:
+      - "10.88.10.17:143:143"
+    restart: unless-stopped
+  kingslanding:
+    image: got-lab
+    container_name: kingslanding
+    mem_limit: 192m
+    command: ["/bin/sh", "-c", "mkdir -p /var/run/mysqld && chown mysql:mysql /var/run/mysqld && (test -d /var/lib/mysql/mysql || mysql_install_db --user=mysql >/dev/null) && exec mysqld --bind-address=0.0.0.0 --port=3306"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.60
+    ports:
+      - "10.88.10.17:3306:3306"
+    restart: unless-stopped
+  mountain:
+    image: got-lab
+    container_name: mountain
+    mem_limit: 192m
+    command: ["/bin/sh", "-c", "sed -i \"s/^#\\?listen_addresses.*/listen_addresses = '*'/\" /etc/postgresql/9.6/main/postgresql.conf && pg_ctlcluster 9.6 main start && exec sleep infinity"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.70
+    ports:
+      - "10.88.10.17:5432:5432"
+    restart: unless-stopped
+  dorne:
+    image: got-lab
+    container_name: dorne
+    mem_limit: 128m
+    cap_add:
+      - DAC_READ_SEARCH
+      - SYS_NICE
+    command: ["/usr/sbin/pure-ftpd", "-S", "0.0.0.0,21", "-p", "30000:30009", "-A"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.80
+    ports:
+      - "10.88.10.17:21:21"
+      - "10.88.10.17:30000-30009:30000-30009"
+    restart: unless-stopped
+  stormlands:
+    image: got-lab
+    container_name: stormlands
+    mem_limit: 128m
+    command: ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx-10000.conf", "-g", "daemon off;"]
+    networks:
+      lab:
+        ipv4_address: 172.31.16.90
+    ports:
+      - "10.88.10.17:10000:10000"
+    restart: unless-stopped
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.16.0/24
+          gateway: 172.31.16.1

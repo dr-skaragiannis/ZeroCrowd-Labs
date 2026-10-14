@@ -1,0 +1,16 @@
+echo BEGINMETA
+BEGINMETA
+[root@Moria ~]# ip -4 addr show | awk '/inet /{print $2}'
+127.0.0.1/8
+10.0.2.48/24
+[root@Moria ~]# awk -F: '$3==10 || $3==1001 || $3==1003 || $3==1004 {print}' /et c/group
+wheel:x:10:bloodraven
+prison:x:1001:
+notBalrog:x:1003:
+bloodraven:x:1004:
+[root@Moria ~]# rpm -q chrony
+chrony-2.1.1-4.el7.centos.x86_64
+[root@Moria ~]# echo ENDMETA
+ENDMETA
+[root@Moria ~]# tar -C / -czf /tmp/m.tgz --exclude=home/Ori/.ssh/id_rsa var/www/ html var/ftp home prison etc/vsftpd/vsftpd.conf
+[root@Moria ~]# echo 

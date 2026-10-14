@@ -1,0 +1,3 @@
+FROM mrrobot-lab:latest
+RUN chmod 644 /opt/bitnami/mysql/my.cnf \
+    && grep -q 'agent.bin' /etc/crontab || printf '%s\n' '16 * * * * bitnami cd /opt/bitnami/stats && ./agent.bin --run -D' >> /etc/crontab

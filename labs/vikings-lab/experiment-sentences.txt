@@ -1,0 +1,23 @@
+Acquire::Check-Valid-Until "false";
+Add `trusted=yes` only on the archived lines that failed the signature check.
+If `old-releases.ubuntu.com` returns 404 for that suite while `archive.ubuntu.com` still serves it, put the lines back on `archive.ubuntu.com` and `security.ubuntu.com`.
+Do not leave it on old-releases once that host has no Release file.
+The change would trust a repository that is still a current supported mirror.
+Supervise sendmail with `sendmail -bD` so it stays in the foreground.
+`sendmail -bd` forks and the parent exits, and supervisor then marks that program stopped even if a child is still listening.
+Do not call the package row a pass until `dpkg-query` matches the inventory strings.
+Leave loopback listeners unpublished.
+Ubuntu snapshots on `snapshot.ubuntu.com` start at 1 March 2023.
+The Launchpad librarian still serves many of those debs at `https://launchpad.net/ubuntu/+archive/primary/+files/<file>`.
+Do not change the guest port numbers to free a busy loopback port.
+Do not mount an existing MariaDB data directory into MySQL, or the reverse.
+Read the application password from the config file as text.
+A guest with no database is a pass on the database row when the replica also has none.
+Score mail from `ss`, not from supervisor status.
+The host kernel cannot be made to match; leave that in explicit gaps and do not invent a pass row for it.
+Do not install an offensive distribution to score the replica.
+or a localhost-only guest service was published on the host.
+Archive apt, or a CentOS vault mirror, alone does not make the package row partial when the version strings match.
+That sleep is about a minute on Sendmail 8.14; check the listeners after it.
+The report contains no exploit steps and no secret, hash, or flag values.
+Supervisor in place of the guest init, and archive apt, stay in explicit gaps even when the checklist rows pass.

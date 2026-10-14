@@ -1,0 +1,66 @@
+﻿echo BEGIN2
+END_INVecho BEGIN2
+[root@Moria ~]# rpm -q vsftpd php httpd mod_ssl
+vsftpd-3.0.2-21.el7.x86_64
+php-5.4.16-42.el7.x86_64
+httpd-2.4.6-45.el7.centos.x86_64
+package mod_ssl is not installed
+[root@Moria ~]# echo ---FILES---
+---FILES---
+[root@Moria ~]# find /var/www /var/ftp /home/abatchy /home/Ori /prison -printf ' %p %s\n' 2>/dev/null | head -n 80
+/var/www 33
+/var/www/cgi-bin 6
+/var/www/html 89
+/var/www/html/index.php 85
+/var/www/html/moria.jpg 161595
+/var/www/html/w 15
+/var/www/html/w/h 15
+/var/www/html/w/h/i 15
+/var/www/html/w/h/i/s 15
+/var/www/html/w/h/i/s/p 15
+/var/www/html/w/h/i/s/p/e 15
+/var/www/html/w/h/i/s/p/e/r 23
+/var/www/html/w/h/i/s/p/e/r/the_abyss 41
+/var/www/html/w/h/i/s/p/e/r/the_abyss/index.php 101
+/var/www/html/w/h/i/s/p/e/r/the_abyss/random.txt 407
+/var/www/html/QlVraKW4fbIkXau9zkAPNGzviT3UKntl 23
+/var/www/html/QlVraKW4fbIkXau9zkAPNGzviT3UKntl/index.php 1672
+/var/ftp 17
+/var/ftp/pub 6
+/home/abatchy 182
+/home/abatchy/.bash_logout 18
+/home/abatchy/.bash_profile 193
+/home/abatchy/.bashrc 231
+/home/abatchy/.mozilla 39
+/home/abatchy/.mozilla/extensions 6
+/home/abatchy/.mozilla/plugins 6
+/home/abatchy/vsftpd.conf 5030
+/home/abatchy/.bash_history 52
+/home/abatchy/knockknock.sh 703
+/home/abatchy/hosts 5
+/home/abatchy/.ssh 25
+/home/abatchy/.ssh/known_hosts 171
+/home/abatchy/cleanup.sh 171
+/home/Ori 55
+/home/Ori/.ssh 57
+/home/Ori/.ssh/id_rsa 1679
+/home/Ori/.ssh/id_rsa.pub 392
+/home/Ori/.ssh/known_hosts 171
+/home/Ori/poem.txt 225
+/home/Ori/.bash_history 1
+/prison 27
+/prison/.bash_history 1
+[root@Moria ~]# echo ---FTP---
+---FTP---
+[root@Moria ~]# grep -E '^(anonymous_enable|local_enable|write_enable|chroot_loc al_user|listen|pasv_|userlist_)' /etc/vsftpd/vsftpd.conf
+[01;31m[Kanonymous_enable[m[K=NO
+[01;31m[Klocal_enable[m[K=YES
+[01;31m[Kwrite_enable[m[K=NO
+[01;31m[Klisten[m[K=NO
+[01;31m[Klisten[m[K_ipv6=YES
+[01;31m[Kuserlist_[m[Kenable=YES
+[root@Moria ~]# echo ---PHP---
+---PHP---
+[root@Moria ~]# httpd -M 2>/dev/null | grep -i php || true
+ [01;31m[Kphp[m[K5_module (shared)
+[root@Moria ~]# echo END2

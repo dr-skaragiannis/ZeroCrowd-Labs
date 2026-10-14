@@ -1,0 +1,30 @@
+﻿.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.idea/
+.vscode/
+*.log
+
+# Appliance disks and extracts
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.raw
+disk.raw
+extract/
+
+# Local secrets / offline admin artifacts
+**/replica/shadow-users.txt
+**/replica/operator.pass
+**/set-admin.sh
+**/*.sql.gz

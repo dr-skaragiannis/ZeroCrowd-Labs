@@ -1,0 +1,22 @@
+services:
+  vikings:
+    build: .
+    image: vikings-lab
+    container_name: vikings
+    hostname: vikings
+    mem_limit: 512m
+    ports:
+      - "10.88.10.11:80:80"
+      - "10.88.10.11:22:22"
+    networks:
+      vikings-net:
+        ipv4_address: 172.31.10.10
+    restart: unless-stopped
+
+networks:
+  vikings-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.10.0/24
+          gateway: 172.31.10.1

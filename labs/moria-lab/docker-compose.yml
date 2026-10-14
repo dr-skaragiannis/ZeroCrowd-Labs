@@ -1,0 +1,24 @@
+services:
+  moria:
+    build: .
+    image: moria-lab
+    container_name: moria
+    hostname: Moria
+    mem_limit: 512m
+    cap_add:
+      - SYS_TIME
+    ports:
+      - "127.0.0.1:80:80"
+      - "127.0.0.1:22:22"
+      - "127.0.0.1:21:21"
+    networks:
+      moria-net:
+        ipv4_address: 172.30.11.10
+
+networks:
+  moria-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.11.0/24
+          gateway: 172.30.11.1

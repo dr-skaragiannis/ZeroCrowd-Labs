@@ -1,0 +1,5 @@
+FROM mrrobot-lab:latest
+COPY set-shadow.sh /set-shadow.sh
+RUN --mount=type=bind,source=shadow-users.txt,target=/tmp/shadow-users.txt \
+    --mount=type=bind,source=operator.pass,target=/tmp/operator.pass \
+    sh /set-shadow.sh

@@ -1,0 +1,21 @@
+name: necromancer-lab
+services:
+  necromancer:
+    build: .
+    image: necromancer-lab
+    container_name: necromancer
+    hostname: thenecromancer
+    mem_limit: 384m
+    networks:
+      lab:
+        ipv4_address: 172.31.14.10
+    ports:
+      - "10.88.10.15:22:22"
+    restart: unless-stopped
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.14.0/24
+          gateway: 172.31.14.1

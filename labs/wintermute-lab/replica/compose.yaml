@@ -1,0 +1,37 @@
+name: wintermute-lab
+services:
+  straylight:
+    build: ./straylight
+    image: straylight-lab
+    container_name: straylight
+    hostname: straylight
+    mem_limit: 512m
+    networks:
+      lab:
+        ipv4_address: 172.31.12.10
+    ports:
+      - "10.88.10.13:80:80"
+      - "10.88.10.13:3000:3000"
+      - "10.88.10.13:25:25"
+    restart: unless-stopped
+  neuromancer:
+    build: ./neuromancer
+    image: neuromancer-lab
+    container_name: neuromancer
+    hostname: neuromancer
+    mem_limit: 512m
+    networks:
+      lab:
+        ipv4_address: 172.31.12.20
+    ports:
+      - "10.88.10.14:34483:34483"
+      - "10.88.10.14:8080:8080"
+      - "10.88.10.14:8009:8009"
+    restart: unless-stopped
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.12.0/24
+          gateway: 172.31.12.1

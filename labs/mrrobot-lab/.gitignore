@@ -1,0 +1,12 @@
+replica/app.sql
+replica/shadow-users.txt
+replica/operator.pass
+replica/bitnami/
+replica/vsftpd.conf
+collect-out.txt
+collect2-out.txt
+collect3-out.txt
+*.raw
+*.vmdk
+*.vdi
+*.ova

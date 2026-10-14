@@ -1,0 +1,2 @@
+root ALL=(ALL) SETENV: ALL
+bloodraven ALL=(ALL:ALL) ALL

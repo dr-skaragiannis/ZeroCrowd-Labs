@@ -1,0 +1,4 @@
+ip -4 -br addr; echo ENDIP
+Option "-br" is unknown, try "ip -help".
+ENDIP
+[root@Moria ~]# 

@@ -1,0 +1,12 @@
+disk.raw
+straylight-disk.raw
+neuromancer-disk.raw
+*.ova
+*.zip
+*.vdi
+*.vmdk
+replica/straylight/shadow-users.txt
+replica/neuromancer/shadow-users.txt
+set-admin.sh
+probe.bin
+headers.txt

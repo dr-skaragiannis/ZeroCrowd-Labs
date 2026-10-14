@@ -1,0 +1,11 @@
+disk.raw
+extract/
+*.ova
+*.vdi
+*.vmdk
+replica/shadow-users.txt
+replica/operator.pass
+replica/scripts/
+replica/snmpd.conf
+replica/htdocs/
+set-admin.sh

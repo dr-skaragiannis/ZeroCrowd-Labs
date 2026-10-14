@@ -1,0 +1,10 @@
+*.ova
+*.vdi
+*.vmdk
+disk.raw
+extract/
+page.html
+replica/shadow-users.txt
+replica/operator.pass
+replica/html/
+set-admin.sh

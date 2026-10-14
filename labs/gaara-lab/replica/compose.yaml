@@ -1,0 +1,22 @@
+name: gaara-lab
+services:
+  gaara:
+    build: .
+    image: gaara-lab
+    container_name: gaara
+    hostname: Gaara
+    mem_limit: 512m
+    networks:
+      lab:
+        ipv4_address: 172.31.15.10
+    ports:
+      - "10.88.10.16:22:22"
+      - "10.88.10.16:80:80"
+    restart: unless-stopped
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.15.0/24
+          gateway: 172.31.15.1

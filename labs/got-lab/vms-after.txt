@@ -1,0 +1,11 @@
+"Parrot OS 7.4 KDE Security Edition" {38fc9213-19e8-4b29-b8ed-39ef92d57688}
+"Raven" {14e0192e-b174-433c-963d-7a6b65a77d93}
+"Moria" {246ed8b0-0f0f-4dda-85ec-a7cf00887795}
+"Vikings" {4853604c-5edf-4c55-98ec-57604c8f8460}
+"Matrix" {2b0b1d3e-89f7-488a-bdd8-00ce5aab2480}
+"MatrixBoot" {72dab3f7-e2f7-47d0-9885-db6ab4dddf9c}
+"Straylight" {08d5bf35-6a46-4571-8fef-56dc3c9a557a}
+"Neuromancer" {1195b58b-35a5-42ad-ac22-10e80945fabc}
+"Necromancer" {6fc73655-a4fe-4a62-ac3c-96fee3e8efed}
+"Gaara" {67ae4ff3-2fb6-45df-b93a-d05d4d078faf}
+"Game of Thrones" {d3d2ac0b-f2de-4145-b68e-f4e795a3ea85}

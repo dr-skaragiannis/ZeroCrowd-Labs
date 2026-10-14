@@ -1,0 +1,2 @@
+﻿"Parrot OS 7.4 KDE Security Edition" {38fc9213-19e8-4b29-b8ed-39ef92d57688}
+"Raven" {14e0192e-b174-433c-963d-7a6b65a77d93}

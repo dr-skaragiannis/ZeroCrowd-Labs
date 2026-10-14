@@ -1,0 +1,65 @@
+.container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f2f2f2;
+}
+
+.image {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  background-image: url("ta.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.content {
+  display: block;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  padding: 12rem 4rem;
+  text-align: center;
+  color: white;
+  background-color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  color: white;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+    background-color: #39f9a0; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#wgtmsr{
+ width:200px;    
+}
+
+#wgtmsr option{
+ width:150px;   
+}

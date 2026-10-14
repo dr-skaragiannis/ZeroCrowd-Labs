@@ -1,0 +1,4 @@
+"Parrot OS 7.4 KDE Security Edition" {38fc9213-19e8-4b29-b8ed-39ef92d57688}
+"Raven" {14e0192e-b174-433c-963d-7a6b65a77d93}
+"Moria" {246ed8b0-0f0f-4dda-85ec-a7cf00887795}
+"Vikings" {4853604c-5edf-4c55-98ec-57604c8f8460}
