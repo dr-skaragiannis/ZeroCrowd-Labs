@@ -1,0 +1,6 @@
+Highlights
+- Eleven-row parity rubric scores VM-to-container replica completeness.
+- Eight replicas pass 73/88 rows; no row is missing; gaps stay explicit.
+- Package versions (6/8 partial) are the main fidelity frontier.
+- Codifying the procedure moved Raven from 5 pass/6 partial to 11/0.
+- Conversion rules live in skills (23/23), not in build files (7/184).

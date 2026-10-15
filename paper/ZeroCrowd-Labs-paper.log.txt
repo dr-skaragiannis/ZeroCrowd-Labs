@@ -1,0 +1,1793 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=latex 2015.10.27)  14 OCT 2026 19:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**input.tex
+(./input.tex
+LaTeX2e <2015/10/01> patch level 1
+(./elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+\@bls=\dimen102
+(//texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(//texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(//texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(//texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(//texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(//texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(//texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(//texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(//texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(//texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\elsarticlehighlightsbox=\box27
+\elsarticlegrabsbox=\box28
+\keybox=\box29
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box30
+\els@boxb=\box31
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(//texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `input.spl'.
+
+
+(//texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(//texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(//texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(//texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks17
+)
+(//texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+\mathindent=\dimen117
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+\appnamewidth=\dimen118
+)
+(//texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(//texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(//texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen119
+))
+(//texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(//texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks19
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks20
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (./booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count110
+\@cmidlb=\count111
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count112
+\@lastruleclass=\count113
+\@thisrulewidth=\dimen140
+)
+(//texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen141
+\extrarowheight=\dimen142
+\NC@list=\toks23
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+(//texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen143
+\TX@old@table=\dimen144
+\TX@old@col=\dimen145
+\TX@target=\dimen146
+\TX@delta=\dimen147
+\TX@cols=\count114
+\TX@ftn=\toks24
+) (//texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (//texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(//texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+) (./input.aux)
+\openout1 = `input.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+(//texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen148
+\scratchbox=\box34
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen149
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks26
+) (//texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(//texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(//texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(//texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(//texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(//texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(//texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(//texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(//texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(64.75394pt, 468.0pt, 64.75394pt)
+* v-part:(T,H,B)=(111.52342pt, 622.0pt, 111.52342pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=468.0pt
+* \textheight=622.0pt
+* \oddsidemargin=-7.51605pt
+* \evensidemargin=-7.51605pt
+* \topmargin=-22.74657pt
+* \headheight=50.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=18.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=24.0pt
+* \skip\footins=24.0pt plus 2.0pt minus 12.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 86--108
+\OT1/cmr/m/n/10 rely on laboratories in which a learner or
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 86--108
+\OT1/cmr/m/n/10 host: published services invite enumeration,
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 86--108
+\OT1/cmr/m/n/10 and accounts, privilege rules, scheduled jobs,
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 86--108
+\OT1/cmr/m/n/10 Cyber-range research has repeatedly identified
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+ []
+
+[1{//texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 117--136
+[]\OT1/cmr/m/n/10 A second difficulty is procedural scale.
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 117--136
+\OT1/cmr/m/n/10 (EOL) distribution whose suites have left the
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 117--136
+\OT1/cmr/m/n/10 active mirrors, inventorying the guest without
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 117--136
+\OT1/cmr/m/n/10 work is performed or assisted by a language-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 155--169
+\OT1/cmr/m/n/10 ports; unpublished loopback services; package
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 155--169
+\OT1/cmr/m/n/10 operationalises, for VM-to-container conversion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--186
+[]\OT1/cmr/bx/n/10 C3---A validated, multi-laboratory
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 171--186
+\OT1/cmr/m/n/10 files but described as ``not converted'' in the
+ []
+
+[2]
+Underfull \hbox (badness 1067) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 and tools, and Ukwandu et al. (2020) review
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 hands-on security exercises (Du et al., 2007);
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 Labtainers showed that Docker containers can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 deliver consistent, individually parameterised
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 exercises on modest student hardware with
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 automated assessment (Thompson & Irvine,
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 of vulnerable VMs by generating randomised
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 vulnerable scenarios (Schreuders et al., 2017).
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 Container-native ranges go further: UNIWA's
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 191--213
+\OT1/cmr/m/n/10 near-perfect vulnerability reproducibility with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--239
+ \OT1/cmr/m/it/10 Reproducible environments and package
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 227--239
+\OT1/cmr/m/n/10 & Zacchiroli (2022) treat reproducible builds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--250
+ \OT1/cmr/m/it/10 Infrastructure-as-code verification..[] \OT1/cmr/m/n/10 Guerr
+iero
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 241--250
+\OT1/cmr/m/n/10 and Shambaugh et al. (2016) verify Puppet
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 252--266
+ \OT1/cmr/m/it/10 Agents, checklists, and outcome-based scoring..[]
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 293--307
+\OT1/cmr/m/n/10 and run locally for education and evaluation.
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 293--307
+\OT1/cmr/m/n/10 report deliberately contains no exploit steps,
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 293--307
+\OT1/cmr/m/n/10 require attacking a service. Student-facing
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 293--307
+\OT1/cmr/m/n/10 implications, validity threats, and limitations.
+ []
+
+[3]
+Underfull \hbox (badness 1502) in paragraph at lines 313--319
+[]\OT1/cmr/m/n/10 The study is an artifact-centred case series
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 313--319
+\OT1/cmr/m/n/10 with one embedded longitudinal case and one
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 313--319
+\OT1/cmr/m/n/10 & H^^?ost, 2009; Wohlin et al., 2012): research
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 321.
+
+(//texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 321.
+
+Underfull \hbox (badness 4048) in paragraph at lines 321--324
+\OT1/cmr/m/n/10 guided container replicas reproduce their
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 321--324
+\OT1/cmr/m/n/10 owned guest appliances under an eleven-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 324--327
+\OT1/cmr/m/n/10 difference associated with the size of the
+ []
+
+[4]
+Underfull \hbox (badness 1552) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 the eight-lab corpus (Section 4.2[]). No null-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 hypothesis test is offered for them: labs are
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 heterogeneous cases, rubric rows within a lab
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 address the observed failure modes, not that
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 codification caused a measured agent speedup.
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 335--347
+\OT1/cmr/m/n/10 RQ4 is answered by exact string lookup, a
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 350--357
+[]\OT1/cmr/m/n/10 Figure 1[] shows the pipeline and Figure 2[]
+ []
+
+<figures/fig02_methodology.pdf, id=23, 443.37459pt x 214.56964pt>
+File: figures/fig02_methodology.pdf Graphic file (type pdf)
+
+<use figures/fig02_methodology.pdf>
+Package pdftex.def Info: figures/fig02_methodology.pdf used on input line 360.
+(pdftex.def)             Requested size: 468.0pt x 226.49979pt.
+
+<figures/fig01_deployment.pdf, id=24, 426.67155pt x 247.95837pt>
+File: figures/fig01_deployment.pdf Graphic file (type pdf)
+
+<use figures/fig01_deployment.pdf>
+Package pdftex.def Info: figures/fig01_deployment.pdf used on input line 370.
+(pdftex.def)             Requested size: 468.0pt x 271.9832pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 380.
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--386
+[]\OT1/cmr/bx/n/10 Step 1---Import (\OT1/cmtt/m/n/10 importing-ova-nat-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 380--386
+\OT1/cmtt/m/n/10 network\OT1/cmr/bx/n/10 ). \OT1/cmr/m/n/10 Register exactly on
+e appliance in
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 380--386
+\OT1/cmr/m/n/10 VirtualBox; attach only that VM's enabled
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 388--398
+[]\OT1/cmr/bx/n/10 Step 2---Offline recovery (\OT1/cmtt/m/n/10 recovering-
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 400--413
+\OT1/cmtt/m/n/10 eol-apt-archives\OT1/cmr/bx/n/10 ). \OT1/cmr/m/n/10 When \OT1/
+cmtt/m/n/10 apt-get update
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 fails because the suite left the active
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 mirrors: keep suite and component names,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 rewrite hosts to \OT1/cmtt/m/n/10 archive.debian.org \OT1/cmr/m
+/n/10 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--413
+\OT1/cmtt/m/n/10 old-releases.ubuntu.com \OT1/cmr/m/n/10 (CentOS guests
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 use the vault mirror instead), disable the
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 validity window (\OT1/cmtt/m/n/10 Acquire::Check-Valid-Until
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 400--413
+\OT1/cmr/m/n/10 lines that still fail with \OT1/cmtt/m/n/10 EXPKEYSIG\OT1/cmr/m
+/n/10 , expired
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 414--424
+[]\OT1/cmr/bx/n/10 Step 4---Inventory (\OT1/cmtt/m/n/10 inventorying-linux-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 414--424
+\OT1/cmr/m/n/10 (validated with \OT1/cmtt/m/n/10 visudo -c\OT1/cmr/m/n/10 ); se
+rvice package
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--446
+[]\OT1/cmr/bx/n/10 Step 5---Build (\OT1/cmtt/m/n/10 building-docker-vm-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 425--446
+\OT1/cmr/m/n/10 image from the guest's distribution codename
+ []
+
+[5] [6 <./figures/fig02_methodology.pdf> <./figures/fig01_deployment.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--460
+[]\OT1/cmr/bx/n/10 Step 6---Score (\OT1/cmtt/m/n/10 evaluating-docker-vm-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 447--460
+\OT1/cmr/m/n/10 and from live commands against the running
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 447--460
+\OT1/cmr/m/n/10 Sendmail 8.14), not from supervisor status in
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/8 Eleven fact groups recorded, secrets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/8 Database host non-local (single-
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 478--478
+\OT1/cmr/m/n/8 container pattern); loopback service
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/8 Image present; container running;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/8 Inventory missing; replica state
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 478--478
+[]|\OT1/cmr/m/n/8 11 rows scored pass/partial/missing;
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 484--496
+\OT1/cmr/m/n/10 choices deserve emphasis. First, the unit is
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Same port numbers/process
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 519--519
+\OT1/cmr/m/n/8 roles listening; live evidence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Inventoried version strings
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Same names, uids, homes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+\OT1/cmr/m/n/8 shells (added operator
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Same vhost set, names,
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Same crontabs and \OT1/cmtt/m/n/8 cron.d
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Same mail package/listeners
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 519--519
+[]|\OT1/cmr/m/n/8 Stored URL unchanged and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--533
+[]\OT1/cmr/m/n/10 Independently of the rows, every report
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 (empty when the package row passes);
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 used; (iii) second kernel---always ``no'': the
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 container uses the host (WSL2) kernel, never
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 the guest kernel; and (iv) init substitution
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 (supervisord or a shell entrypoint in place of
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 systemd/sysv/OpenBSD \OT1/cmtt/m/n/10 rc\OT1/cmr/m/n/10 ), plus
+ deployment
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 522--533
+\OT1/cmr/m/n/10 unreproducible parts of a container conversion
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 with a dedicated bridge subnet and static
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 only the published address (Figure 2[]). The
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 dataset for RQ1--RQ2 is the set of primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 facts and provenance), \OT1/cmtt/m/n/10 replica-parity.md
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 (row scores, substitutions, gap register),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--549
+\OT1/cmtt/m/n/10 docker-compose.yml\OT1/cmr/m/n/10 /\OT1/cmtt/m/n/10 replica/co
+mpose.yaml
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 (caps, addresses, bindings), the Dockerfile(s)
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 536--549
+\OT1/cmr/m/n/10 (base image and pins), and, where produced,
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 536--549
+\OT1/cmtt/m/n/10 experiment.md \OT1/cmr/m/n/10 (lookup study). The student-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--562
+[]\OT1/cmr/m/n/10 Three rules govern all reporting.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--562
+\OT1/cmr/m/n/10 figures are Compose \OT1/cmtt/m/n/10 mem[]limit \OT1/cmr/m/n/10
+ values
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--562
+\OT1/cmr/m/n/10 and VirtualBox allocations, not resident-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--562
+\OT1/cmr/m/n/10 set measurements; addresses are Compose
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 552--562
+\OT1/cmr/m/n/10 round, a guest never booted), the cell stays
+ []
+
+[7]
+Underfull \hbox (badness 2913) in paragraph at lines 576--592
+\OT1/cmr/m/n/10 the build context (\OT1/cmtt/m/n/10 replica/ \OT1/cmr/m/n/10 wi
+th Dockerfile,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--592
+\OT1/cmr/m/n/10 entrypoint, supervisor configuration, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--592
+\OT1/cmr/m/n/10 service configuration), \OT1/cmtt/m/n/10 vm-inventory.md\OT1/cm
+r/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--592
+\OT1/cmtt/m/n/10 replica-parity.md\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 Educationa
+l-Module.md\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--607
+\OT1/cmtt/m/n/10 centos:7.3.1611 \OT1/cmr/m/n/10 (Moria), \OT1/cmtt/m/n/10 ubun
+tu:18.04
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 595--607
+\OT1/cmr/m/n/10 (Wintermute's two containers), \OT1/cmtt/m/n/10 ubuntu:14.04
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 595--607
+\OT1/cmr/m/n/10 for Matrix, whose guest is a Slackware-style
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 608--630
+[]\OT1/cmr/m/n/10 Pinning is literal. Raven's Dockerfile,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 for example, writes six dated snapshot
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 pairs plus the archive lines for Jessie, sets
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 608--630
+\OT1/cmtt/m/n/10 Check-Valid-Until "false" \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10
+ trusted=yes
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 on those archived lines only, and pins the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 PHP \OT1/cmtt/m/n/10 5.6.36+dfsg-0+deb8u1\OT1/cmr/m/n/10 , MySQ
+L
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 Sendmail \OT1/cmtt/m/n/10 8.14.4-8+deb8u2\OT1/cmr/m/n/10 , cron
+, sudo) at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--630
+\OT1/cmtt/m/n/10 5.4.16-42.el7\OT1/cmr/m/n/10 , OpenSSH \OT1/cmtt/m/n/10 6.6.1p
+1-33.el7[]3\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 demonstrate the rubric's asymmetry: archive
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 are partial precisely because the archive now
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 608--630
+\OT1/cmr/m/n/10 (e.g., Gaara's Apache \OT1/cmtt/m/n/10 2.4.59-1~deb10u1 \OT1/cm
+r/m/n/10 for
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 608--630
+\OT1/cmtt/m/n/10 2.4.38-3+deb10u4\OT1/cmr/m/n/10 ), which is a reproducibility
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 supervise the inventoried daemons in the
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 single- process Game-of-Thrones containers, a
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 sleeps for roughly a minute after its startup
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 644--671
+\OT1/cmr/m/it/10 socket is the server's socket\OT1/cmr/m/n/10 : PHP's MySQL
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 (\OT1/cmtt/m/n/10 /var/run/mysqld/mysqld.sock\OT1/cmr/m/n/10 );
+ a successful
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 Apache, nginx$\OMS/cmsy/m/n/10 ^^B$\OT1/cmr/m/n/10 2, BIND, Dov
+ecot, MariaDB,
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 644--671
+\OT1/cmr/m/n/10 PostgreSQL, pure-ftpd) on one bridge because
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 674--697
+[]\OT1/cmr/m/n/10 Publication is the security-critical mechanic.
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 it keeps the stored application URL honest:
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 Raven serves \OT1/cmtt/m/n/10 http://raven.local/wordpress/
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 with the hostname mapped to the published
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 SNMP on 161/udp, Tomcat's shutdown port,
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 the container where the guest had them and
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 is the limiting case: only SSH is published
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 674--697
+\OT1/cmr/m/n/10 that \OT1/cmr/m/it/10 is \OT1/cmr/m/n/10 the guest topology. Gu
+est networks
+ []
+
+[9]
+Underfull \hbox (badness 2707) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 same topology---same listeners, accounts, and
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 loopback decisions---on a current Debian 12
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 learner-chosen passwords excluded from hand-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 HTTP status codes. The modules therefore
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 verification statuses) mirrors the parity rows.
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 A scenario-design skill drafts new briefs from
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 700--718
+\OT1/cmr/m/n/10 existing inventories---setting, scale, published
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 727--747
+\OT1/cmr/m/n/10 strict pass count per lab, and the configured
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 727--747
+\OT1/cmr/m/n/10 readings of the same file are the longitudinal
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 727--747
+\OT1/cmr/m/n/10 and parity skills; listed in the repository as
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 727--747
+\OT1/cmr/m/n/10 the experiment sentence set), searched exactly
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 727--747
+\OT1/cmr/m/n/10 and each lab's finished build/inventory/score
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 749--765
+\OT1/cmr/m/n/10 eight labs, ten guest systems (Wintermute
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 749--765
+\OT1/cmr/m/n/10 rows for the second group therefore rest on
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 789--789
+[]|\OT1/cmr/m/n/8 CentOS 7.3.1611 (3.10.0-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--789
+[]|\OT1/cmr/m/n/8 Ubuntu 18.04 bionic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--789
+[]|\OT1/cmr/m/n/8 Debian 9 (4.9.0-6) +
+ []
+
+[10]
+Underfull \hbox (badness 2126) in paragraph at lines 803--814
+\OT1/cmr/m/n/10 project, a built-and-running parity report
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 803--814
+\OT1/cmr/m/n/10 and a lookup experiment. We therefore
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 814--820
+\OT1/cmr/bx/n/10 draft text. \OT1/cmr/m/n/10 Container bridge addresses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--820
+\OT1/cmr/m/n/10 (172.30/172.31.*), dedicated published
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--829
+[]\OT1/cmr/bx/n/10 Three different lookup runs were
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 820--829
+\OT1/cmr/bx/n/10 not interchangeable. \OT1/cmr/m/n/10 The cross-lab
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 820--829
+\OT1/cmr/m/n/10 file sets and produced different medians
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 820--829
+\OT1/cmr/m/n/10 (e.g., skills-corpus medians of 2.539 ms,
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 820--829
+\OT1/cmr/m/n/10 They measure the same coverage fact on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 ports,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 ports,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 ports,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+\OT1/cmr/m/n/8 packages,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 packages,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 Game of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 ports,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+\OT1/cmr/m/n/8 packages,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--868
+[]|\OT1/cmr/m/n/8 packages in
+ []
+
+<figures/fig04_parity_stacked.pdf, id=253, 442.24557pt x 228.91803pt>
+File: figures/fig04_parity_stacked.pdf Graphic file (type pdf)
+
+<use figures/fig04_parity_stacked.pdf>
+Package pdftex.def Info: figures/fig04_parity_stacked.pdf used on input line 87
+3.
+(pdftex.def)             Requested size: 468.0pt x 242.26073pt.
+
+Underfull \hbox (badness 6236) in paragraph at lines 880--890
+[]\OT1/cmr/m/n/10 The anatomy of the 15 partial rows is
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 880--890
+\OT1/cmr/m/n/10 concentrated, not diffuse (Table 6[], Figures 4[]
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 880--890
+\OT1/cmr/m/n/10 and 5[]). Four areas pass on every lab---
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--896
+[]\OT1/cmr/m/it/10 Archive-revision drift \OT1/cmr/m/n/10 (Gaara, Game of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--896
+\OT1/cmr/m/n/10 Thrones, Wintermute, and the archive
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 892--896
+\OT1/cmr/m/n/10 component in Vikings): the EOL archive
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 896--899
+[]\OT1/cmr/m/it/10 Unreproducible guest substrate \OT1/cmr/m/n/10 (Matrix's
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 896--899
+\OT1/cmr/m/n/10 Slackware packages on a Debian base;
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 899--906
+[]\OT1/cmr/m/it/10 Guest-runtime collapse \OT1/cmr/m/n/10 (Vikings' systemd-
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 899--906
+\OT1/cmr/m/n/10 images; Wintermute's un-recreated second
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 899--906
+\OT1/cmr/m/n/10 guest services): listeners or engines that
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 899--906
+\OT1/cmr/m/n/10 existed only as guest-runtime state are
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 906--909
+\OT1/cmr/m/n/10 defining string differs while the service is
+ []
+
+<figures/fig05_heatmap.pdf, id=257, 492.30173pt x 282.91322pt>
+File: figures/fig05_heatmap.pdf Graphic file (type pdf)
+
+<use figures/fig05_heatmap.pdf>
+Package pdftex.def Info: figures/fig05_heatmap.pdf used on input line 938.
+(pdftex.def)             Requested size: 430.55914pt x 247.44052pt.
+
+<figures/fig08_radar_areas.pdf, id=258, 292.34712pt x 273.66637pt>
+File: figures/fig08_radar_areas.pdf Graphic file (type pdf)
+
+<use figures/fig08_radar_areas.pdf>
+Package pdftex.def Info: figures/fig08_radar_areas.pdf used on input line 948.
+(pdftex.def)             Requested size: 222.0pt x 207.8132pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--970
+[]|\OT1/cmr/m/n/8 Slackware/OpenBSD
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 970--970
+[]|\OT1/cmr/m/n/8 Guest-runtime state
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 970--970
+[]|\OT1/cmr/m/n/8 Added job present;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--970
+\OT1/cmr/m/n/8 BSD periodic
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 975--1002
+\OT1/cmr/m/n/10 larger savings cost fidelity---shows no evident
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 975--1002
+\OT1/cmr/m/n/10 inside a smaller envelope, consistent with the
+ []
+
+[12 <./figures/fig04_parity_stacked.pdf>] [13 <./figures/fig05_heatmap.pdf> <./
+figures/fig08_radar_areas.pdf>]
+<figures/fig03_memory_grouped.pdf, id=454, 452.4654pt x 242.1023pt>
+File: figures/fig03_memory_grouped.pdf Graphic file (type pdf)
+
+<use figures/fig03_memory_grouped.pdf>
+Package pdftex.def Info: figures/fig03_memory_grouped.pdf used on input line 10
+05.
+(pdftex.def)             Requested size: 468.0pt x 250.42836pt.
+
+<figures/fig06_scatter_ram_cap.pdf, id=455, 240.84465pt x 246.83255pt>
+File: figures/fig06_scatter_ram_cap.pdf Graphic file (type pdf)
+
+<use figures/fig06_scatter_ram_cap.pdf>
+Package pdftex.def Info: figures/fig06_scatter_ram_cap.pdf used on input line 1
+015.
+(pdftex.def)             Requested size: 222.0pt x 227.51805pt.
+
+<figures/fig10_scatter_exploratory.pdf, id=456, 447.35843pt x 237.74257pt>
+File: figures/fig10_scatter_exploratory.pdf Graphic file (type pdf)
+
+<use figures/fig10_scatter_exploratory.pdf>
+Package pdftex.def Info: figures/fig10_scatter_exploratory.pdf used on input li
+ne 1026.
+(pdftex.def)             Requested size: 468.0pt x 248.71927pt.
+
+Underfull \hbox (badness 2644) in paragraph at lines 1035--1035
+[]\OT1/cmr/m/it/10 RQ3---What codifying the rules changed
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 1037--1061
+\OT1/cmr/m/n/10 eleven rows: before the conversion rules were
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 1037--1061
+\OT1/cmr/m/n/10 MariaDB 10.1 standing in for Debian 8 and
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<figures/fig07_raven_longitudinal.pdf, id=460, 453.80034pt x 203.94067pt>
+File: figures/fig07_raven_longitudinal.pdf Graphic file (type pdf)
+
+<use figures/fig07_raven_longitudinal.pdf>
+Package pdftex.def Info: figures/fig07_raven_longitudinal.pdf used on input lin
+e 1076.
+(pdftex.def)             Requested size: 468.0pt x 210.32886pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1102
+[]|\OT1/cmr/m/n/8 Install \OT1/cmtt/m/n/8 nfs-common\OT1/cmr/m/n/8 ; run \OT1/c
+mtt/m/n/8 rpcbind \OT1/cmr/m/n/8 +
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 1102--1102
+[]|\OT1/cmr/m/n/8 Rebuild \OT1/cmtt/m/n/8 FROM debian:jessie\OT1/cmr/m/n/8 ; pi
+n guest
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 1108--1125
+[]\OT1/cmr/m/n/10 Experiment A (cross-lab, 13 October 2026)
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 1108--1125
+\OT1/cmr/m/n/10 searched the 23 coded rule sentences in the
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 1108--1125
+\OT1/cmr/m/n/10 skills contain all 23 sentences (23/23). The
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 1108--1125
+\OT1/cmr/m/n/10 eight lab corpora contain \OT1/cmr/bx/n/10 7 hits in 184
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 1133--1133
+\OT1/cmr/m/n/8 sentences (13 Oct 2026, five repetitions, median of
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 1133--1133
+\OT1/cmr/m/n/8 per-lab medians (skills vs. replica files) were: Gaara
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 1133--1133
+\OT1/cmr/m/n/8 0.593/0.562 ms, Necromancer 1.724/4.127 ms, Vikings
+ []
+
+<figures/fig09_lookup.pdf, id=461, 486.28226pt x 227.07993pt>
+File: figures/fig09_lookup.pdf Graphic file (type pdf)
+
+<use figures/fig09_lookup.pdf>
+Package pdftex.def Info: figures/fig09_lookup.pdf used on input line 1155.
+(pdftex.def)             Requested size: 468.0pt x 218.55556pt.
+ [15 <./figures/fig03_memory_grouped.pdf> <./figures/fig06_scatter_ram_cap.pdf>
+] [16 <./figures/fig10_scatter_exploratory.pdf> <./figures/fig07_raven_longitud
+inal.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./figures/fig09_lookup.pdf>]
+Underfull \hbox (badness 1394) in paragraph at lines 1197--1211
+[]\OT1/cmr/m/n/10 Second, \OT1/cmr/m/it/10 the fidelity frontier is archival, n
+ot
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 1212--1225
+[]\OT1/cmr/m/n/10 Third, \OT1/cmr/m/it/10 the durable contribution of an agent
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 1228--1255
+[]\OT1/cmr/m/n/10 The parity discipline is also a containment
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 on all eight labs (plus MrRobot) means no
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 install EOL guests at all, and are therefore
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 standing policy for current mirrors. Finally,
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 does not re-distribute the historical vulnerable
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 system it describes. None of this makes
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 a replica \OT1/cmr/m/it/10 safe \OT1/cmr/m/n/10 in the containe
+r-security sense:
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 1228--1255
+\OT1/cmr/m/n/10 and inherit the shared-kernel exposure Sultan
+ []
+
+[18]
+Underfull \hbox (badness 1895) in paragraph at lines 1259--1268
+\OT1/cmr/m/n/10 conversion, and a pass row for ``web paths''
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 1259--1268
+\OT1/cmr/m/n/10 caps, not residency, latency, or throughput
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 1270--1279
+\OT1/cmr/m/n/10 Five of eight inventories rest on configuration
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 1281--1289
+ \OT1/cmr/m/it/10 External validity..[] \OT1/cmr/m/n/10 The corpus is the proje
+ct's
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 1281--1289
+\OT1/cmr/m/n/10 and-SSH-centric boot-to-root systems on one
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 1281--1289
+\OT1/cmr/m/n/10 Windows/WSL2 + VirtualBox host. Results
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 1281--1289
+\OT1/cmr/m/n/10 current distributions, cloud ranges, multi-host
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1281--1289
+\OT1/cmr/m/n/10 educators and range operators holding similar
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1281--1289
+\OT1/cmr/m/n/10 legacy appliances---is the population the skills
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 1302--1321
+[]\OT1/cmr/m/n/10 The decisive unrun experiment is a \OT1/cmr/m/it/10 second-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 1302--1321
+\OT1/cmr/m/n/10 mechanism claim, not an efficacy or speedup
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1302--1321
+\OT1/cmr/m/n/10 not force---kernel-adjacent behaviour, filesystem
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1325--1348
+\OT1/cmr/m/n/10 was about---and to prove, row by row, what
+ []
+
+[19]
+Underfull \hbox (badness 2662) in paragraph at lines 1350--1354
+[]\OT1/cmr/m/n/10 The authors thank the maintainers of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1360
+[]\OT1/cmr/bx/n/10 ZeroCrowd-Labs Project Team:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1360
+\OT1/cmr/m/n/10 Conceptualisation, Methodology, Software,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1365
+[]\OT1/cmr/m/n/10 The authors declare that they have no
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 1367--1373
+\OT1/cmr/m/n/10 sentence set, validation script, and figure-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 1367--1373
+\OT1/cmr/m/n/10 Labs repository accompanying this manuscript.
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 1384--1387
+[]\OT1/cmr/m/n/8 Boettiger, C. (2015). An introduction to Docker for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1387
+\OT1/cmr/m/it/8 Review\OT1/cmr/m/n/8 , \OT1/cmr/m/it/8 49\OT1/cmr/m/n/8 (1), 71
+--79. $\OT1/cmtt/m/n/8 https : / / doi . org / 10 . 1145 /
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 1401--1406
+[]\OT1/cmr/m/n/8 Du, W., Teng, Z., & Wang, R. (2007). SEED: A
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 1415--1420
+[]\OT1/cmr/m/n/8 Guerriero, M., Garriga, M., Tamburri, D. A., &
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 1415--1420
+\OT1/cmr/m/n/8 of infrastructure-as-code: Insights from industry. In
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 1415--1420
+\OT1/cmr/m/it/8 on Software Maintenance and Evolution (ICSME)
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 1431--1436
+[]\OT1/cmr/m/n/8 Hummer, W., Rosenberg, F., Oliveira, F., & Eilam,
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 1431--1436
+\OT1/cmr/m/n/8 T. (2013). Testing idempotence for infrastructure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1436
+\OT1/cmr/m/n/8 as code. In D. Eyers & K. Schwan (Eds.),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1436
+\OT1/cmr/m/it/8 Middleware 2013 \OT1/cmr/m/n/8 (Lecture Notes in Computer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1436
+\OT1/cmr/m/n/8 Science, Vol. 8275, pp. 368--388). Springer.
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 1438--1443
+[]\OT1/cmr/m/n/8 Jimenez, C. E., Yang, J., Wettig, A., Yao, S., Pei,
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 1438--1443
+\OT1/cmr/m/n/8 K., Press, O., & Narasimhan, K. (2024). SWE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1443
+\OT1/cmr/m/n/8 bench: Can language models resolve real-world
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 1438--1443
+\OT1/cmr/m/n/8 GitHub issues? In \OT1/cmr/m/it/8 Proceedings of the Twelfth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1443
+\OT1/cmtt/m/n/8 https : / / proceedings . iclr . cc / paper \ _files / paper /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1443
+\OT1/cmtt/m/n/8 2024 / hash / edac78c3e300629acfe6cbe9ca88fb84-[] \
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1468
+[]\OT1/cmr/m/n/8 Naik, N. (2016). Migrating from virtualization to
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 1462--1468
+\OT1/cmr/m/it/8 10th International Symposium on the Maintenance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1468
+\OT1/cmr/m/it/8 and Evolution of Service-Oriented and Cloud-
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 1462--1468
+\OT1/cmr/m/it/8 Based Environments (MESOCA) \OT1/cmr/m/n/8 (pp. 1--8). IEEE.
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 1489--1495
+[]\OT1/cmr/m/n/8 Schreuders, Z. C., Shaw, T., Shan-A-Khuda, M.,
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1504--1507
+\OT1/cmr/m/n/8 security: Issues, challenges, and the road ahead.
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 1504--1507
+\OT1/cmr/m/it/8 IEEE Access\OT1/cmr/m/n/8 , \OT1/cmr/m/it/8 7\OT1/cmr/m/n/8 , 5
+2976--52996. $\OT1/cmtt/m/n/8 https : / / doi . org / 10 .
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 1509--1512
+\OT1/cmr/m/n/8 cybersecurity lab exercises with Labtainers. \OT1/cmr/m/it/8 IEE
+E
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1514--1519
+\OT1/cmr/m/n/8 of cyber-ranges and test-beds: Current and future
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 1532--1537
+[]\OT1/cmr/m/n/8 Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I.,
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 1532--1537
+\OT1/cmr/m/n/8 Narasimhan, K. R., & Cao, Y. (2023). ReAct:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+(./input.aux) ) 
+Here is how much of TeX's memory you used:
+ 3726 strings out of 495114
+ 49177 string characters out of 6185824
+ 134987 words of memory out of 250000
+ 6839 multiletter control sequences out of 15000+600000
+ 8316 words of font info for 31 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 38i,11n,34p,692b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+<//texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><//texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><//texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><//texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<//texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><//texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><//texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><//texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><//texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><//texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><//texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><//texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt8.pfb>
+Output written on input.pdf (21 pages, 522783 bytes).
+PDF statistics:
+ 832 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
