@@ -279,11 +279,11 @@ Yamin et al. (2020); Ukwandu et al. (2020) & Survey & --- & --- & --- & ---\\
 SEED (Du et al., 2007); Labtainers (Thompson \& Irvine, 2018) & Yes & --- & --- & --- & ---\\
 SecGen (Schreuders et al., 2017) & VM generation & --- & --- & --- & ---\\
 UNIWA CR (Chouliaras et al., 2023); CyExec* (Nakata \& Otsuka, 2021) & Yes & Scenario-level & --- & Kernel limits noted & ---\\
-Felter et al. (2015); Naik (2016); Sultan et al. (2019) & Performance/security & --- & --- & Kernel analysed & ---\\
+Felter et al. (2015); Naik (2016); Sultan et al. (2019) & Performance\slash security & --- & --- & Kernel analysed & ---\\
 Boettiger (2015); N\"ust et al. (2020); Lamb \& Zacchiroli (2022) & Packaging & Version pinning & Historical suites & --- & ---\\
 Guerriero et al. (2019); Hummer et al. (2013); Shambaugh et al. (2016) & IaC testing & Config. checks & --- & --- & ---\\
 ReAct (Yao et al., 2023); SWE-bench (Jimenez et al., 2024) & --- & Task success & --- & --- & In-episode\\
-\textbf{This paper} & \textbf{Replica of owned VM} & \textbf{11-row parity} & \textbf{Archive/snapshot rules} & \textbf{Kernel, init, archive} & \textbf{Persistent skills}\\
+\textbf{This paper} & \textbf{Replica of owned VM} & \textbf{11-row parity} & \textbf{Archive\slash snapshot rules} & \textbf{Kernel, init, archive} & \textbf{Persistent skills}\\
 \bottomrule
 \end{tabularx}
 \end{table*}
@@ -377,7 +377,7 @@ measured traffic.}
 \label{fig:deploy}
 \end{figure*}
 
-\textbf{Step 1---Import (\texttt{importing-ova-nat\-network}).} Register
+\textbf{Step 1---Import (\texttt{importing-\allowbreak ova-\allowbreak nat-\allowbreak network}).} Register
 exactly one appliance in VirtualBox; attach only that VM's enabled
 adapters to a pre-existing NAT network; record the VM list before and
 after. \emph{Stop} if the NAT network is absent, the name collides, or
@@ -385,7 +385,7 @@ any other VM changed. This containment rule is what makes a series of
 conversions composable on one host.
 
 \textbf{Step 2---Offline recovery
-(\texttt{recovering-linux-admin\-offline}; conditional).} Only when the
+(\texttt{recovering-\allowbreak linux-\allowbreak admin-\allowbreak offline}; conditional).} Only when the
 guest password is unknown and the machine is powered off: clone the
 disk (RAW), mount the clone (handling LVM via device-mapper nodes where
 necessary), add a local administrator (uid $\geq$ 1000, \texttt{sudo} on
@@ -397,7 +397,7 @@ an online attack; an encrypted (LUKS) root without a passphrase is a
 terminal stop.
 
 \textbf{Step 3---EOL package repair
-(\texttt{repairing-eol-apt\-archives}).} When \texttt{apt-get update}
+(\texttt{repairing-\allowbreak eol-\allowbreak apt-\allowbreak archives}).} When \texttt{apt-get update}
 fails because the suite left the active mirrors: keep suite and
 component names, rewrite hosts to \texttt{archive.debian.org} /
 \texttt{old-releases.ubuntu.com} (CentOS guests use the vault mirror
@@ -411,7 +411,7 @@ Verification is \texttt{apt-get update} and a simulated install
 (\texttt{apt-get install -s bash}) both exiting~0. The repair is legal
 and remains a registered gap (Section~\ref{sec:rubric}).
 
-\textbf{Step 4---Inventory (\texttt{inventorying-linux\-vm}).} Record,
+\textbf{Step 4---Inventory (\texttt{inventorying-\allowbreak linux-\allowbreak vm}).} Record,
 from the running guest where it can be booted and otherwise from unit
 files and configuration (the provenance is itself recorded): listeners
 with bind address and loopback status; human users with uid, home, and
@@ -422,7 +422,7 @@ application database name, user, host, and socket; cron (root crontab,
 private keys, and flag values are replaced by a redaction token at
 capture time.
 
-\textbf{Step 5---Build (\texttt{building-docker-vm\-replica}).} One
+\textbf{Step 5---Build (\texttt{building-\allowbreak docker-\allowbreak vm-\allowbreak replica}).} One
 Compose project per lab; base image from the guest's distribution
 codename where the guest system can be a Linux container base;
 \emph{pin the inventoried package revisions} (dated snapshot where the
@@ -444,7 +444,7 @@ or below the guest RAM allocation. Where the guest cannot be the base
 engine), the substitution is chosen deliberately and scored partial
 where the rubric requires it.
 
-\textbf{Step 6---Score (\texttt{evaluating-docker-vm\-parity}).} Score
+\textbf{Step 6---Score (\texttt{evaluating-\allowbreak docker-\allowbreak vm-\allowbreak parity}).} Score
 the eleven rows from the inventory and from live commands against the
 running container---never from the Dockerfile alone. A non-running
 replica scores runtime rows missing. Mail is scored from listening
@@ -1015,7 +1015,9 @@ containers (256 $+$ $6\times128$ $+$ $2\times192$~MB).}
 \includegraphics[width=\columnwidth]{figures/fig06_scatter_ram_cap.pdf}
 \caption{Guest allocation vs.\ replica cap with the identity line.
 Every lab sits on or below the line by rule; rank association
-($\rho=0.87$) reflects the capping rule, not an empirical law.}
+($\rho=0.87$) reflects the capping rule, not an empirical law. Labs
+with identical (RAM, cap) coordinates are labelled jointly
+(Matrix $+$ Necromancer; Moria $+$ Vikings $+$ Gaara).}
 \label{fig:scatter-ram}
 \end{figure}
 
@@ -1437,7 +1439,7 @@ Jimenez, C. E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O., \&
 Narasimhan, K. (2024). SWE-bench: Can language models resolve real-world
 GitHub issues? In \textit{Proceedings of the Twelfth International
 Conference on Learning Representations}.
-\url{https://proceedings.iclr.cc/paper\_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html}
+\url{https://proceedings.iclr.cc/paper\_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-\allowbreak Abstract-\allowbreak Conference.html}
 
 \bibitem[Kitchenham et~al.(2002)]{kitchenham2002}
 Kitchenham, B. A., Pfleeger, S. L., Pickard, L. M., Jones, P. W.,
